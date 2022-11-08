@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Outremer", "Outremer\Outremer.vcxproj", "{6C6FDF79-8795-407E-B542-BEDA22722088}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OutremerCore", "OutremerCore\OutremerCore.vcxproj", "{F476E2A5-9BDB-4013-8C20-18645B1D5285}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C6FDF79-8795-407E-B542-BEDA22722088} = {6C6FDF79-8795-407E-B542-BEDA22722088}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
